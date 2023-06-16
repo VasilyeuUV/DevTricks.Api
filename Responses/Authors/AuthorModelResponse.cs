@@ -7,25 +7,25 @@
     {
 
         /// <summary>
-        /// Id автора
+        /// Author Id
         /// </summary>
         public required int Id { get; init; }
 
 
         /// <summary>
-        /// Имя автора
+        /// Author name
         /// </summary>
         public required string FirstName { get; init; }
 
 
         /// <summary>
-        /// Фамилия автора
+        /// Author last name
         /// </summary>
         public required string LastName { get; init;}
 
 
         /// <summary>
-        /// Лень рождения автора
+        /// Author birthday
         /// </summary>
         public required DateOnly BirthDay { get; init; }
 
