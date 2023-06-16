@@ -1,0 +1,8 @@
+﻿services:
+  devtricks.api:
+    image: devtriksapi:1.0.0
+    build: 
+        context: .
+        dockerfile: Dockerfile
+    ports:
+        - "50000:80"
